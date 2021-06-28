@@ -1,0 +1,12 @@
+version: '3'
+
+services:  
+  web:
+    image: adriannborella/devel_django:0.1
+    environment:
+      - DATABASE_URL
+    volumes:
+      - ./project:/project
+    ports:
+      - "8000:8000"
+    stdin_open: true
