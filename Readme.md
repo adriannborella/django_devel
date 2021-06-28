@@ -1,11 +1,9 @@
-Comandos para trabajar
+# Comandos para trabajar
 
-Para construir
+- Para construir
 
-docker-compose up -d
+        docker-compose up -d
 
-Luego para trabajar
+- Luego para trabajar
 
-docker-compose exec web ./manage.py runserver 0.0.0.0:8000
-
-
+        docker-compose exec web ./manage.py runserver 0.0.0.0:8000
